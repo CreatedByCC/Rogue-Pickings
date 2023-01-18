@@ -1,0 +1,142 @@
+/***** MAIN PAGE *****/
+/***** BASE *****/
+body{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+.container,.gallery-header,.food-pictures, .top-section, .bottom-section, footer{
+    margin: 0 25px;
+    width: 1200px;
+}
+h1, h2, h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+p{
+    font-size: 16px;
+}
+
+/***** HEADER *****/
+header{
+    height: 100px;
+}
+.container h1{
+    float: left;
+    padding: 35px 0;
+}
+.container h1 span{
+    color: #77a466;
+}
+.container nav{
+    float: right;
+    padding: 43px 0 43px 25px;
+}
+.container ul li{
+    display: inline;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+.container ul li a{
+    color: #77a466;
+    text-decoration: none;
+}
+
+/***** BODY *****/
+.top-section, .bottom-section, footer{
+    clear: both;
+    float: left;
+}
+.main-image img{
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;   
+}
+.welcome-message{
+    padding: 30px 0;
+}
+.welcome-message h2{
+    color: #77a466;
+    font-size: 18px;
+}
+.welcome-message p{
+    line-height: 25px;
+}
+.specials, .reviews, .contact{
+    border-top: 1px solid #dedbdc;
+    width: 399px;
+    float: left;
+}
+.reviews{
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+.specials h3, .reviews h3, .contact h3{
+    font-size: 12px;
+    padding-top: 20px;
+}
+.menu{
+    color: #77a466;
+    font-size: 16px;
+    list-style: none;
+    line-height: 30px;
+    padding: 0;
+}
+.reviews h3, .contact h3, .reviews p, .contact p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.reviews p{
+    line-height: 21px;
+    padding-bottom: 20px;
+}
+.contact p{
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+/***** FOOTER *****/
+footer{
+    border-top: 1px solid #dedbdc;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer span{
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+/***** GALLERY PAGE *****/
+.gallery-header{
+    color: #77a466;
+    height: 200px;
+    padding: 200px auto;
+    text-align: center;
+}
+.gallery-header nav{
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+.hummus, .burrito, .tamales{
+    float: left;
+    width: 400px;
+    padding: 50px 0;
+}
+.food-pictures h3{
+    text-align: center;
+}
+.food-pictures img{
+    background: #77a466;
+    border: 5px solid white;
+    height: 300px;
+    padding: 30px;
+    width: 300px;
+}
